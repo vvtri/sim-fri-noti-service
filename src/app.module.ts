@@ -24,6 +24,7 @@ import { CommentModule } from './comment/comment.module';
 import globalConfig, { GlobalConfig } from './common/configs/global.config';
 import { consumerConfig, kafkaConfig } from './common/configs/kafka.config';
 import { FileModule } from './file/file.module';
+import { FriendModule } from './friend/friend.module';
 import { NotiModule } from './noti/noti.module';
 import { PostModule } from './post/post.module';
 
@@ -60,7 +61,8 @@ import { PostModule } from './post/post.module';
     FileModule,
     NotiModule,
     CommentModule,
-    PostModule
+    PostModule,
+    FriendModule
   ],
   controllers: [AppController],
   providers: [
